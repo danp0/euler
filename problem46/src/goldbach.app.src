@@ -1,0 +1,12 @@
+{application, goldbach,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { goldbach_app, []}},
+  {env, []}
+ ]}.

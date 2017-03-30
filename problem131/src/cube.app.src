@@ -1,0 +1,12 @@
+{application, cube,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cube_app, []}},
+  {env, []}
+ ]}.

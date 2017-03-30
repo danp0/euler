@@ -1,0 +1,12 @@
+{application, anagram,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { anagram_app, []}},
+  {env, []}
+ ]}.

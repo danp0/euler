@@ -1,0 +1,12 @@
+{application, pentagon,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { pentagon_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,12 @@
+{application, repunit,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { repunit_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,12 @@
+{application, exponentiation,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { exponentiation_app, []}},
+  {env, []}
+ ]}.

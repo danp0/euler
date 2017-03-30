@@ -1,0 +1,12 @@
+{application, probability,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { probability_app, []}},
+  {env, []}
+ ]}.

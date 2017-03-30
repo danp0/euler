@@ -1,0 +1,12 @@
+{application, consecutive,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { consecutive_app, []}},
+  {env, []}
+ ]}.

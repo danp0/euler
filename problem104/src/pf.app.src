@@ -1,0 +1,12 @@
+{application, pf,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { pf_app, []}},
+  {env, []}
+ ]}.

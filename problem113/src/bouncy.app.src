@@ -1,0 +1,12 @@
+{application, bouncy,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { bouncy_app, []}},
+  {env, []}
+ ]}.

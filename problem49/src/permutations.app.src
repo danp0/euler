@@ -1,0 +1,12 @@
+{application, permutations,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { permutations_app, []}},
+  {env, []}
+ ]}.

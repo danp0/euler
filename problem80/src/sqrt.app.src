@@ -1,0 +1,12 @@
+{application, sqrt,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sqrt_app, []}},
+  {env, []}
+ ]}.

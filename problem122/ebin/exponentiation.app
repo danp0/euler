@@ -1,0 +1,9 @@
+{application,exponentiation,
+             [{description,[]},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{exponentiation_app,[]}},
+              {env,[]},
+              {modules,[exponentiation,exponentiation1,exponentiation_app,
+                        exponentiation_sup]}]}.

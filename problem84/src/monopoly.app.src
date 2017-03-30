@@ -1,0 +1,12 @@
+{application, monopoly,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { monopoly_app, []}},
+  {env, []}
+ ]}.

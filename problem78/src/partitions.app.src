@@ -1,0 +1,12 @@
+{application, partitions,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { partitions_app, []}},
+  {env, []}
+ ]}.

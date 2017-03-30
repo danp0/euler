@@ -1,0 +1,12 @@
+{application, substring,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { substring_app, []}},
+  {env, []}
+ ]}.

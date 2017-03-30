@@ -1,0 +1,12 @@
+{application, power,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { power_app, []}},
+  {env, []}
+ ]}.

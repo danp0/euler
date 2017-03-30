@@ -1,0 +1,12 @@
+{application, combinatoric,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { combinatoric_app, []}},
+  {env, []}
+ ]}.

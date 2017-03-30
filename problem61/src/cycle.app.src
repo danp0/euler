@@ -1,0 +1,12 @@
+{application, cycle,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { cycle_app, []}},
+  {env, []}
+ ]}.

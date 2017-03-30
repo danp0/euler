@@ -1,0 +1,12 @@
+{application, triangle,
+ [
+  {description, "Find triangle words"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { triangle_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,12 @@
+{application, spiral,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { spiral_app, []}},
+  {env, []}
+ ]}.

@@ -1,0 +1,12 @@
+{application, prime,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { prime_app, []}},
+  {env, []}
+ ]}.

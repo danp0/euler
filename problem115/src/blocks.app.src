@@ -1,0 +1,12 @@
+{application, blocks,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { blocks_app, []}},
+  {env, []}
+ ]}.

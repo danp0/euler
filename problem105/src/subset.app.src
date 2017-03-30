@@ -1,0 +1,12 @@
+{application, subset,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { subset_app, []}},
+  {env, []}
+ ]}.

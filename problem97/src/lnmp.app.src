@@ -1,0 +1,12 @@
+{application, lnmp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { lnmp_app, []}},
+  {env, []}
+ ]}.
