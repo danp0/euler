@@ -1,5 +1,5 @@
 
-REBAR=./rebar
+REBAR=rebar
 
 .PHONY: all edoc test run clean build_plt dialyzer app
 

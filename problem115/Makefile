@@ -1,5 +1,5 @@
 
-REBAR=./rebar
+REBAR=rebar
 
 .PHONY: all clean run run0 test
 

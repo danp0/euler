@@ -1,7 +1,7 @@
 
 ERL=erl
 MKDIR=mkdir
-REBAR=./rebar
+REBAR=rebar
 RM=rm
 
 .PHONY: all clean run test

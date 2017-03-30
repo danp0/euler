@@ -1,6 +1,6 @@
 
 ERL=erl
-REBAR=./rebar
+REBAR=rebar
 
 .PHONY: all run test clean
 
