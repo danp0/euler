@@ -11,6 +11,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the sum of the digits in the number 100! (factorial).
+%
+
 digits(N) ->
   digits(N, []).
 

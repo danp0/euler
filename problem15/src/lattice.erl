@@ -15,6 +15,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the number of routes through a 20x20 grid if you can
+% only move right or down.
+%
+
 -record(state, {
           map
         }).

@@ -19,6 +19,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the sum of the digits in 2^1000.
+%
+
 -record(state, {
           map = dict:new()
          }

@@ -12,6 +12,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% What is the smallest positive number that is evenly divisible by
+% all numbers from 1 to 20.
+%
+
 difference(L1, L2) ->
   lists:reverse(difference(L1, L2, [])).
 

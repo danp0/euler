@@ -11,6 +11,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Count the number of letters if 1 to 1000 is written out
+% in words. Ignore spaces and hyphens.
+%
+
 count_letters(From, To) ->
   lists:sum([word_length(number_to_word(N)) || N <- lists:seq(From, To)]).
 

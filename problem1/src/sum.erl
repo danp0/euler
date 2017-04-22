@@ -5,6 +5,10 @@
    main/0
   ]).
 
+%
+% Find sum of all multiples of 3 or 5 below 1000.
+%
+
 sumof(Ok, From, To) ->
   lists:sum([N || N <- lists:seq(From, To), Ok(N)]).
 

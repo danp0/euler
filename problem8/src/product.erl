@@ -11,6 +11,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the thirteen adjacent digits in the 1000-digit number
+% that have the greatest product. Find the product.
+%
+
 largest_product(L, N) ->
   GreaterThan = fun(E1, E2) -> E1 >= E2 end,
   SortedElements =

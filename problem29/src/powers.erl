@@ -17,6 +17,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%%
+%% Find the distinct powers for a^b where
+%% 2 <= a <= 100 and 2 <= b <= 100.
+%%
+
 -record(state,
         {
          powers = dict:new()

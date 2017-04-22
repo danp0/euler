@@ -12,6 +12,23 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% A perfect number is a number in which the sum of its proper
+% divisors equal the number.
+%
+% A deficient number is a number in which the sum of its proper
+% divisors is less than the number.
+%
+% An abundant number is a number in which the sum of its proper
+% divisors is greater than the number.
+%
+% All integers greater than 28123 can be written as the sum of
+% two abundant numbers.
+%
+% Find the sum of all positive integers which cannot be written
+% as the sum of two abundant numbers.
+%
+
 find_abundant_number_set(N) ->
   sets:from_list([A || A <- lists:seq(1,N), A < lists:sum(proper_divisors(A))]).
 

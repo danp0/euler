@@ -11,6 +11,12 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% F1 = F2 = 1
+% Find the index of the first term in the Fibonacci sequence 
+% to contain 1000 digits.
+%
+
 gen_has_n_digits(Digits) ->
   Upper = power_of_10(Digits),
   Lower = Upper div 10,

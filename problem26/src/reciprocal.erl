@@ -15,6 +15,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% For the fractions 1/d where d < 1000, find the value d that
+% contains the longest recurring cycle.
+%
+
 extend(A, _B, Count, Acc) when A =:= 0 orelse Count =:= 0 ->
   lists:reverse(Acc);
 extend(A, B, Count, Acc) when A < B ->

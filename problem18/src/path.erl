@@ -10,6 +10,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% In the triangle below, find the maximum path from top to bottom
+% by moving to adjacent numbers below.
+%
+
 main() ->
   Triangle =
   [

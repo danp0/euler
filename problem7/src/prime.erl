@@ -8,6 +8,10 @@
    ]
   ).
 
+%
+% Find the 10,001st prime number.
+%
+
 estimate_nth_prime(N) ->
   N * math:log(N).
 

@@ -17,6 +17,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Count the number of Sundays that fell on the first of the month
+% from 1 Jan 1901 to 31 Dec 2000.
+%
+
 choose(Condition, True, False) ->
   case Condition of
     true -> True;

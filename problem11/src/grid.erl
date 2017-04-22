@@ -18,6 +18,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the greatest product of four adjacent numbers in the
+% grid (up, down, left, right, or diagonally).
+%
+
 dimension([]) ->
   {0, 0};
 dimension([H|_] = RawGrid) ->

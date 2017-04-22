@@ -11,6 +11,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the first ten digits by summing the following numbers.
+%
+
 main() ->
   io:format("summer...~n", []),
   Numbers = [

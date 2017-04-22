@@ -9,6 +9,11 @@
    ]
   ).
 
+%
+% Find the largest palindrome made from the product of two 3-digit
+% numbers.
+%
+
 is_palindrome(N) ->
   L = integer_to_list(N),
   L =:= lists:reverse(L).

@@ -1,6 +1,9 @@
 -module(spiral).
 
 %%
+%%  For numbers on the diagonals in a 1001 by 1001 spiral, find the
+%%  sum.
+%%
 %%  dimension
 %%  ---------
 %%  0 1

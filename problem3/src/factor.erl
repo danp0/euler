@@ -13,6 +13,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the largest prime factor of the number 600851475143.
+%
+
 ceil(X) ->
   T = trunc(X),
   case (X - T) of

@@ -7,6 +7,11 @@
    ]
   ).
 
+%
+% Find the sum of even valued Fibonacci numbers that
+% do not exceed four million.
+%
+
 sum(F1, _F2, Max, Sum) when F1 >= Max ->
   Sum;
 sum(F1, F2, Max, Sum) ->

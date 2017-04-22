@@ -11,6 +11,12 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Read the names in name.txt. Sort the names. Multiply the position
+% of the name in the list by the sum of the character position in
+% the alphabet to get the name score. Sum all the name scores.
+%
+
 alpha_value(Name) ->
   lists:foldl(
     fun(C, Sum) when C >= $A andalso C =< $Z ->

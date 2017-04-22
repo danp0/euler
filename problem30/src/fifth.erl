@@ -14,6 +14,10 @@
 -include_lib("eunit/include/eunit.hrl").
 
 %%
+%% Find the sum of all numbers that can be written as the
+%% sum of fifth powers of their digits. For example,
+%% 4150 = 4^5 + 1^5 + 5^5 + 0^5 = 1024 + 1 + 3125 + 0
+%%
 %% 0  1   2    3     4     5      6      7      8      9
 %% 0, 1, 16,  81,  256,  625,  1296,  2401,  4096,  6561
 %% 0, 1, 32, 243, 1024, 3125,  7776, 16807, 32768, 59049

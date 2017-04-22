@@ -9,6 +9,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the sum of all primes below two million.
+%
+
 main() ->
   io:format("primes...~n", []),
   {Time, Sum} = timer:tc(fun() -> lists:sum(sieve(2000000)) end),

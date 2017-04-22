@@ -13,6 +13,10 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the first triangle number to have over five hundred divisors.
+%
+
 count_of_factors(N) ->
   Powers =
   lists:map(fun(E) -> length(E) + 1 end, split_factors(N)),

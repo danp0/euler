@@ -11,6 +11,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the Collatz sequence with a starting number under one million
+% with the longest chain.
+%
+
 find(List) ->
   lists:foldl(
     fun(N, {Root, Length}) ->

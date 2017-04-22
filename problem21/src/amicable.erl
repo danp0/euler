@@ -10,6 +10,13 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Let d(n) be defined as the sum of proper divisors of n (numbers
+% less than n which evenly divide n). If d(a) = b and d(b) = a when
+% a <> b, then a and b are amicable. Find the sum of all amicable
+% numbers under 10000.
+%
+
 find_amicable_numbers(UpperBound) ->
   Sums = [{N, lists:sum(proper_divisors(N))} || N <- lists:seq(2, UpperBound)],
   lists:filter(
