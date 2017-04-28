@@ -14,6 +14,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the sum of all numbers that are equal to the sum of the
+% factorial of their digits.
+%
+
 digit_seq(1, Digits) ->
   [[N] || N <- Digits];
 digit_seq(N, Digits) ->

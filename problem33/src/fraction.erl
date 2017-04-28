@@ -13,6 +13,12 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the denominator in the product of the four fractions with
+% two digits that can be found by removing matching digits 
+% (16/64 = 1/4). Ignore trivial fractions such as 30/50 = 3/5.
+%
+
 equal(F1, F2) ->
   reduce(F1) =:= reduce(F2).
 

@@ -7,6 +7,11 @@
    ]
   ).
 
+%
+% Find the number of ways that 2 pound (200) can be made
+% from 1p, 2p, 5p, 10p, 50p, 1 pound, and 2 pound coins.
+%
+
 count(Total, Coins) when Total < 0 orelse Coins =:= [] ->
   0;
 count(0, _Coins) ->

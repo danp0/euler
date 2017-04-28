@@ -15,6 +15,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the sum of all products whose multiplicand/multiplier/product
+% identity can be written as a 1 - 9 pandigital number.
+%
+
 digits_to_number(Digits) ->
   digits_to_number(Digits, 0).
 

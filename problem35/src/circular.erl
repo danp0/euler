@@ -18,6 +18,11 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
+%
+% Find the number of circular primes (all rotations of the digits
+% are prime) below one million.
+%
+
 digits_to_number(Digits) ->
   lists:foldl(fun(D, N) -> 10*N + D end, 0, Digits).
 
